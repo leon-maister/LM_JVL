@@ -43,10 +43,10 @@ jobs:
           checkmarx_url: https://cxprivatecloud.checkmarx.net/ 
           # Select a Checkmarx Team
           team: /CxServer/SP/EMEA/UK
-          # Provide Checkmarx Username
-          checkmarx_username: ${{secrets.CHECKMARX_USERNAME}} 
-          # Provide Checkmarx Password
-          checkmarx_password: ${{secrets.CHECKMARX_PASSWORD}} 
+          # Provide Checkmarx Username #${{secrets.CHECKMARX_USERNAME}}
+          checkmarx_username: LeonMaister  
+          # Provide Checkmarx Password ${{secrets.CHECKMARX_PASSWORD}}
+          checkmarx_password:  adminADMIN1!
           # Provide Checkmarx Client Secret
           checkmarx_client_secret: 014DF517-39D1-4453-B7B3-9930C563627C
           # Select a Checkmarx Project
@@ -56,7 +56,7 @@ jobs:
           # Select a Checkmarx Preset
           #preset: # optional, default is Checkmarx Default
           # Break build based on Checkmarx findings?
-          #break_build: # optional
+          break_build: true
           # Bug tracker for the scan results.
           #bug_tracker: # optional, default is Sarif
           # Incremental Scans?
