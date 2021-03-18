@@ -44,9 +44,9 @@ jobs:
           # Select a Checkmarx Team
           team: /CxServer/SP/EMEA/UK
           # Provide Checkmarx Username
-          checkmarx_username: LeonMaister 
+          checkmarx_username: ${{secrets.CHECKMARX_USERNAME}} 
           # Provide Checkmarx Password
-          checkmarx_password: adminADMIN1! 
+          checkmarx_password: ${{secrets.CHECKMARX_PASSWORD}} 
           # Provide Checkmarx Client Secret
           checkmarx_client_secret: 014DF517-39D1-4453-B7B3-9930C563627C
           # Select a Checkmarx Project
