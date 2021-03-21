@@ -57,13 +57,12 @@ jobs:
           #preset: # optional, default is Checkmarx Default
           # Break build based on Checkmarx findings?
           break_build: true
-          sastHigh: 5
           # Bug tracker for the scan results.
           #bug_tracker: # optional, default is Sarif
           # Incremental Scans?
           #incremental: # optional, default is true
           # Additional CLI parameters
-          #params: # optional, default is 
+          params: --sca.thresholdHigh=5 
           # GitHub API Token
           #github_token: # optional, default is ${{ github.token }}
           # Vulnerability Scanners (sast, sca, ast, cxgo)
