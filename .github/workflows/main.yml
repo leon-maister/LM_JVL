@@ -62,7 +62,7 @@ jobs:
           # Incremental Scans?
           #incremental: # optional, default is true
           # Additional CLI parameters
-          params: --sca.thresholdHigh=5 
+          params: --sast.thresholdHigh=5 
           # GitHub API Token
           #github_token: # optional, default is ${{ github.token }}
           # Vulnerability Scanners (sast, sca, ast, cxgo)
