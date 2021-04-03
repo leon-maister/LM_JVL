@@ -62,7 +62,7 @@ jobs:
           # Incremental Scans?
           #incremental: # optional, default is true
           # Additional CLI parameters
-          params: --cx-flow.thresholds.high=2 --cx-flow.thresholds.medium=5 --cx-flow.thresholds.low=10
+          #params: --cx-flow.thresholds.high=2 --cx-flow.thresholds.medium=5 --cx-flow.thresholds.low=10
           # GitHub API Token
           #github_token: # optional, default is ${{ github.token }}
           # Vulnerability Scanners (sast, sca, ast, cxgo)
