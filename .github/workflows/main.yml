@@ -76,8 +76,8 @@ jobs:
           # Provide SCA Tenant
           sca_tenant: SCA_Leon
           # Provide SCA Username
-          sca_username: ${{secrets.SCA_PASSWORD}}
+          sca_username: ${{secrets.SCA_USENAME}}
           # Provide SCA Password
-          sca_password: ${{secrets.CHECKMARX_PASSWORD}} 
+          sca_password: ${{secrets.SCA_PASSWORD}} 
           # Provide CxGo Client Secret
         
