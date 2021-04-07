@@ -66,7 +66,7 @@ jobs:
           # GitHub API Token
           #github_token: # optional, default is ${{ github.token }}
           # Vulnerability Scanners (sast, sca, ast, cxgo)
-          #scanners: # default is 
+          scanners: sca 
           # Provide SCA API URL
           sca_api_url: https://api.scacheckmarx.com
           # Provide SCA APP URL
