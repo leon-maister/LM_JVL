@@ -68,16 +68,16 @@ jobs:
           # Vulnerability Scanners (sast, sca, ast, cxgo)
           #scanners: # default is 
           # Provide SCA API URL
-          #sca_api_url: # optional, default is https://api.scacheckmarx.com
+          sca_api_url: https://api.scacheckmarx.com
           # Provide SCA APP URL
-          #sca_app_url: # optional, default is https://sca.scacheckmarx.com
+          sca_app_url: https://sca.scacheckmarx.com
           # Provide SCA Access Control URL
-          #sca_access_control_url: # optional, default is https://platform.checkmarx.net
+          sca_access_control_url: https://platform.checkmarx.net
           # Provide SCA Tenant
-          #sca_tenant: # optional, default is 
+          sca_tenant: SCA_Leon
           # Provide SCA Username
-          #sca_username: # optional, default is 
+          sca_username: ${{secrets.SCA_PASSWORD}}
           # Provide SCA Password
-          #sca_password: # optional, default is 
+          sca_password: ${{secrets.CHECKMARX_PASSWORD}} 
           # Provide CxGo Client Secret
         
